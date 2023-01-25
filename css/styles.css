@@ -123,6 +123,9 @@ body {
   text-align: left;
   cursor: pointer;
 }
+.hero-button:hover {
+  background-color: var(--pressed-state);
+}
 /* Section 2 */
 .feature-title {
   color: var(--dark);
