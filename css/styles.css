@@ -39,7 +39,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
@@ -50,7 +50,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -78,7 +78,7 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
@@ -88,7 +88,7 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
@@ -110,7 +110,7 @@ body {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -120,16 +120,17 @@ body {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: left;
+  cursor: pointer;
 }
 /* Section 2 */
 .feature-title {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -138,7 +139,7 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -148,7 +149,7 @@ body {
   color: var(--dark);
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -164,7 +165,7 @@ body {
   color: var(--dark);
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -175,7 +176,7 @@ body {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -183,7 +184,7 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -193,7 +194,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
@@ -204,7 +205,7 @@ body {
   color: var(--accent);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -215,9 +216,10 @@ body {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
+  cursor: pointer;
 }
 .filter .btn:hover,
 .filter .btn:focus {
@@ -232,7 +234,7 @@ body {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -240,7 +242,7 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
