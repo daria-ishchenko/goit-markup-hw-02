@@ -1,0 +1,246 @@
+:root {
+  --brand-color: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Header */
+.page-header {
+  background-color: #ffffff;
+}
+
+.logo {
+  color: var(--dark);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: var(--brand-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* Navigation */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {
+  color: var(--accent);
+}
+
+.site-nav .link {
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* Contacts */
+
+.contacts .email {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+}
+.contacts .phone {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+}
+.contacts .email:hover,
+.contacts .email:focus {
+  color: var(--pressed-state);
+}
+.contacts .phone:hover,
+.contacts .phone:focus {
+  color: var(--pressed-state);
+}
+/* Section 1 Studio */
+.hero-section {
+  background-color: var(--hero-background);
+}
+.hero-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--brand-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+/* Section 2 */
+.feature-title {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.feature-text {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* Section 3 */
+.work-title {
+  color: var(--dark);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.list {
+  list-style: none;
+}
+/* Section 4 */
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: var(--dark);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-member-card {
+  background-color: #ffffff;
+}
+.team-member-name {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-member-job {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* Footer */
+.logo-footer {
+  color: var(--light);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer {
+  background-color: var(--dark);
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+/* Section1 Button list */
+.btn {
+  color: var(--brand-color);
+  background-color: var(--accent);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.filter .btn:hover,
+.filter .btn:focus {
+  color: #ffffff;
+  background-color: var(--pressed-state);
+}
+/* Section 2 Portfolio */
+.filter-card {
+  background-color: #ffffff;
+}
+.filter-title {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.filter-text {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
