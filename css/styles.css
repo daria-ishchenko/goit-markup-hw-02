@@ -7,14 +7,17 @@
   --subtle-text: #8e8f99;
   --accent: #e7e9fc;
   --light: #f4f4fd;
+  --background: #ffffff;
   --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
 }
-
+.list {
+  text-decoration: none;
+}
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--background);
+  color: var(--text);
 }
 .visually-hidden {
   position: absolute;
@@ -57,7 +60,8 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
-  color: var(--accent);
+  color: var(--pressed-state);
+  text-decoration: underline;
 }
 
 .nav-link {
@@ -161,7 +165,7 @@ body {
 }
 /* Section 4 */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--light);
 }
 .team-title {
   color: var(--dark);
@@ -171,7 +175,7 @@ body {
   text-align: center;
 }
 .team-member-card {
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 .team-member-name {
   color: var(--dark);
@@ -226,7 +230,7 @@ body {
 }
 /* Section 2 Portfolio */
 .filter-card {
-  background-color: #ffffff;
+  background-color: var(--background);
 }
 .filter-title {
   color: var(--dark);
