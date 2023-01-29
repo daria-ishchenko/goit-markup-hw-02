@@ -8,6 +8,7 @@
   --accent: #e7e9fc;
   --light: #f4f4fd;
   --background: #ffffff;
+  --button-text: #ffffff;
   --modal-overlay: #2e2f42;
   --hero-background: #2e2f42;
 }
@@ -61,7 +62,7 @@ body {
 .nav-link:focus,
 .nav-link.current {
   color: var(--pressed-state);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .nav-link {
@@ -72,10 +73,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-}
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--pressed-state);
 }
 
 /* Contacts */
@@ -113,14 +110,14 @@ body {
   background-color: var(--hero-background);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--background);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-button {
-  color: #ffffff;
+  color: var(--button-text);
   background-color: var(--brand-color);
   font-family: inherit;
   font-size: 16px;
@@ -225,7 +222,7 @@ body {
 }
 .filter .btn:hover,
 .filter .btn:focus {
-  color: #ffffff;
+  color: var(--button-text);
   background-color: var(--pressed-state);
 }
 /* Section 2 Portfolio */
